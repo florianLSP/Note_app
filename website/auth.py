@@ -28,7 +28,5 @@ def sign_up():
             flash('Passwords don\'t match.', category='error')
         else:
             flash('Account created!', category='success')
-            #add user to the databse
-            pass
         
     return render_template("sign_up.html")
